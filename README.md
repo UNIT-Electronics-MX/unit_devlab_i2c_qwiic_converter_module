@@ -16,15 +16,18 @@ A bidirectional I2C level shifter module for seamless 3.3V↔5V communication. F
 </div>
 
 
-## Quick Start
 
+## Quick Start
+<div align="center">
 [<img src="https://img.shields.io/badge/Documentation-blue?style=for-the-badge" alt="Documentation">](#)
 [<img src="https://img.shields.io/badge/Datasheet-green?style=for-the-badge" alt="Datasheet">](#)
 [<img src="https://img.shields.io/badge/Purchase-orange?style=for-the-badge" alt="Purchase">](#)
 [<img src="https://img.shields.io/badge/Examples-purple?style=for-the-badge" alt="Examples">](#)
+</div >
 
 ## Specifications
 
+<div align="center">
 | Specification | Value |
 |---|---|
 | Input Voltage (High) | 5V ± 0.3V |
@@ -32,7 +35,7 @@ A bidirectional I2C level shifter module for seamless 3.3V↔5V communication. F
 | I2C Speed | 100 kHz - 400 kHz |
 | Connector | Qwiic/STEMMA QT |
 | Operating Temp | 0°C to 50°C |
-
+</div>
 ## Use Cases
 
 - Mixed-voltage IoT projects

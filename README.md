@@ -1,76 +1,49 @@
 
-# DevLab: [Protocol/Interface] [Chip/Model] [Brief Description][Module/Sensor/Shield/Adapter]
-<!-- Exception:
+# DevLab: I2C Qwiic Converter Module
 
-The PULSAR development board line does not use the DevLab: prefix.
+A bidirectional I2C level shifter module for seamless 3.3V↔5V communication. Features integrated voltage regulators and Qwiic/STEMMA QT connectors for easy sensor integration.
 
-Format: PULSAR [MCU/Model]
+## Key Features
 
-Examples: PULSAR C6, PULSAR H2, PULSAR RP2350
-
-The JUN R3 board also does not use DevLab:
-
-Example: JUN R3 -->
-
-## Introduction
-
-This is a modular development board based on a popular microcontroller, designed for rapid prototyping and educational use. It features flexible power options, modern connectivity, and user-friendly interfaces. An integrated LED matrix allows for simple visual feedback and display.
+- **Bidirectional Level Shifting:** DIP switch selectable for buck (5V→3.3V) or boost (3.3V→5V)
+- **Qwiic/STEMMA QT Compatible:** Daisy-chain multiple sensors effortlessly
+- **Compact Design:** Breadboard-friendly with minimal footprint
+- **No Additional Wiring:** Integrated power conversion for mixed-voltage systems
 
 <div align="center">
-  <img src="hardware/resources/unit_top_v_1_0_0_icp10111_barometric_pressure_sensor.png" width="450px" alt="Development Board">
+  <img src="./hardware/resources/unit_top_v_0_0_1_ue0116_i2c_qwiic_converter_module.jpg">
   <p><em>Development Board</em></p>
 </div>
 
-<div align="center">
 
-### Quick Setup
+## Quick Start
 
-[<img src="https://img.shields.io/badge/Product%20Wiki-blue?style=for-the-badge" alt="Product Wiki">](#)
+[<img src="https://img.shields.io/badge/Documentation-blue?style=for-the-badge" alt="Documentation">](#)
 [<img src="https://img.shields.io/badge/Datasheet-green?style=for-the-badge" alt="Datasheet">](#)
-[<img src="https://img.shields.io/badge/Buy%20Now-orange?style=for-the-badge" alt="Buy Now">](#)
-[<img src="https://img.shields.io/badge/Getting%20Started-purple?style=for-the-badge" alt="Getting Started">](#)
+[<img src="https://img.shields.io/badge/Purchase-orange?style=for-the-badge" alt="Purchase">](#)
+[<img src="https://img.shields.io/badge/Examples-purple?style=for-the-badge" alt="Examples">](#)
 
-</div>
+## Specifications
 
-<div align="center" >
+| Specification | Value |
+|---|---|
+| Input Voltage (High) | 5V ± 0.3V |
+| Input Voltage (Low) | 3.3V ± 0.1V |
+| I2C Speed | 100 kHz - 400 kHz |
+| Connector | Qwiic/STEMMA QT |
+| Operating Temp | 0°C to 50°C |
 
-## Overview
+## Use Cases
 
-| Feature           | Description                                         |
-|-------------------|-----------------------------------------------------|
-| Microcontroller   | 8-bit MCU                                           |
-| Memory            | Flash, SRAM, EEPROM                                 |
-| Clock Speed       | 16 MHz                                              |
-| Power Supply      | USB-C (5V)                                          |
-| Interfaces        | UART, I2C, SPI, PWM, ADC, GPIO                      |
-| LED Matrix        | 5x5 RGB LED Matrix                                  |
-| Connectivity      | USB-C for programming and power                     |
-| Form Factor       | UNO-compatible                                      |
-| Development IDEs  | Arduino IDE, PlatformIO                             |
-| Onboard Features  | Integrated LED matrix, programmable LED, reset button|
-| Expansion Port    | I2C connector for sensors and modules               |
-
-</div>
-
-## Applications
-
-- **Prototyping:** Quickly develop and test ideas.
-- **Education:** Suitable for learning microcontroller basics.
-- **Wearables:** Compact and versatile for wearable devices.
-- **Displays:** Use the LED matrix for simple visual output.
-
-## Resources
-
-- [Schematic Diagram](#)
-- [Pinout Diagram](#)
-- [Getting Started Guide](#)
+- Mixed-voltage IoT projects
+- Multi-sensor prototyping
+- I2C device bridging
 
 ## 📝 License
 
-All hardware and documentation in this project are licensed under the **MIT License**.  
-See [`LICENSE.md`](LICENSE.md) for details.
+Licensed under the **MIT License**. See [`LICENSE.md`](LICENSE.md).
 
 <div align="center">
-  <sub>Template created by UNIT Electronics</sub>
+  <sub>Created by UNIT Electronics</sub>
 </div>
 

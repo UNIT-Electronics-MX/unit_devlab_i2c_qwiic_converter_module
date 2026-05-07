@@ -11,7 +11,7 @@ A bidirectional I2C level shifter module for seamless 3.3V↔5V communication. F
 - **No Additional Wiring:** Integrated power conversion for mixed-voltage systems
 
 <div align="center">
-  <img src="./hardware/resources/unit_top_v_0_0_1_ue0116_i2c_qwiic_converter_module.jpg">
+  <img src="./hardware/resources/unit_top_v_0_0_1ue0106_i2c_qwiic_converter_module_3d.png">
   <p><em>Development Board</em></p>
 </div>
 

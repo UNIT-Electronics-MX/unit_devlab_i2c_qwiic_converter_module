@@ -9,6 +9,32 @@ Schematic
 
 ---
 
+## Electrical Characteristics
+
+| Parameter | Description | Min | Typ | Max | Unit |
+|---|---|---|---|---|---|
+| VIN | Input supply voltage for module operation | 2.5 | 3.3 / 5.0 | 5.5 | V |
+| VLV | Low-voltage rail operating range | 1.8 | 3.3 | 5.0 | V |
+| VHV | High-voltage rail operating range | 3.3 | 5.0 | V |
+| IOUT-LV | Maximum output current for LV rail | - | - | 1 | A |
+| IOUT-HV | Maximum output current for HV rail | - | - | 1 | A |
+| VIH | Input high-level voltage for I²C logic | 0.7 × VCC | - | - | V |
+| VIL | Input low-level voltage for I²C logic | - | - | 0.3 × VCC | V |
+| VOH | Output high-level voltage for I²C logic | 0.8 × VCC | - | - | V |
+| VOL | Output low-level voltage for I²C logic | - | - | 0.2 × VCC | V |
+| fI2C | Supported I²C bus frequency | 0 | 100 | 400 | kHz |
+| TAMB | Recommended operating ambient temperature | -20 | 25 | 85 | °C |
+| RPULLUP | Integrated pull-up resistor value | - | 10 | - | kΩ |
+| ESD | ESD protection level (HBM typical) | - | ±2 | - | kV |
+
+> **Note 1:** Maximum output current depends on thermal dissipation, PCB layout, and input voltage conditions.
+
+> **Note 2:** The module integrates bidirectional MOSFET-based level shifters optimized for open-drain I²C communication.
+
+> **Note 3:** Qwiic/STEMMA QT connectors share the same I²C bus signals (VCC, GND, SDA, SCL) for daisy-chain operation.
+
+> **Note 4:** Operating voltage ranges may vary depending on external power configuration and selected LV/HV mode.
+
 ## Pinout
 
 <div align="center">

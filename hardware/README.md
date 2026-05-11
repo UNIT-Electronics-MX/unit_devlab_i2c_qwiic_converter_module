@@ -31,7 +31,7 @@ Pinout
 
 <div align="center">
 <a href="./resources/unit_dimensions_v_1_0_0_ue0106_i2c_qwiic_converter_module.png">
-<img src="./resources/unit_dimensions_v_1_0_0_ue0106_i2c_qwiic_converter_module.png" width="500px"><br/>
+<img src="./resources/unit_dimensions_v_1_0_0_ue0106_i2c_qwiic_converter_module.png" width="600px"><br/>
 Dimensions
 </a>
 </div>
@@ -42,7 +42,7 @@ Dimensions
 
 <div align="center">
 <a href="./resources/unit_topology_v_1_0_0_ue0106_i2c_qwiic_converter_module.png">
-<img src="./resources/unit_topology_v_1_0_0_ue0106_i2c_qwiic_converter_module.png" width="500px"><br/>
+<img src="./resources/unit_topology_v_1_0_0_ue0106_i2c_qwiic_converter_module.png" width="800px"><br/>
 Topology
 </a>
 </div>

@@ -1,43 +1,53 @@
-
 # Hardware
 
 <div align="center">
-<a href="https://github.com/UNIT-Electronics-MX/unit_devlab_i2c_qwiic_converter_module/blob/main/hardware/unit_sch_v_1_0_0_ue0106_i2c_qwiic_converter_module.pdf"><img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>Schematic</a>
+<a href="https://github.com/UNIT-Electronics-MX/unit_devlab_i2c_qwiic_converter_module/blob/main/hardware/unit_sch_v_1_0_0_ue0106_i2c_qwiic_converter_module.pdf">
+<img src="resources/Schematics_icon.jpg?raw=false" width="200px"><br/>
+Schematic
+</a>
 </div>
+
+---
 
 ## Pinout
 
 <div align="center">
-    <a href="#"><img src="#" width="500px"><br/>Pinout</a>
-    <br/>
-    <br/>
-    <br/>
-    
-
-| Pin Label | Function    | Notes                             |
-|-----------|-------------|-----------------------------------|
-| VCC       | Power Supply| 3.3V or 5V                       |
-| GND       | Ground      | Common ground for all components  |
-
+<a href="#">
+<img src="#" width="500px"><br/>
+Pinout
+</a>
 </div>
+
+### Pin & Connector Layout
+
+| Pin Label | Function | Notes |
+|---|---|---|
+| VCC | Power Supply | 3.3V or 5V |
+| GND | Ground | Common ground for all components |
+
+---
 
 ## Dimensions
 
 <div align="center">
-<a href="./resources/unit_dimensions_v_1_0_0_ue0106_i2c_qwiic_converter_module.png" width="500px"><br/> Dimensions</a>
+<a href="./resources/unit_dimensions_v_1_0_0_ue0106_i2c_qwiic_converter_module.png">
+<img src="./resources/unit_dimensions_v_1_0_0_ue0106_i2c_qwiic_converter_module.png" width="500px"><br/>
+Dimensions
+</a>
 </div>
+
+---
 
 ## Topology
 
 <div align="center">
+<a href="./resources/unit_topology_v_1_0_0_ue0106_i2c_qwiic_converter_module.png">
+<img src="./resources/unit_topology_v_1_0_0_ue0106_i2c_qwiic_converter_module.png" width="500px"><br/>
+Topology
+</a>
+</div>
 
-<div align="center">
-<a href="./resources/unit_topology_v_1_0_0_ue0106_i2c_qwiic_converter_module.png"><img src="#" width="500px"><br/> Topology</a>
-<br/>
-<br/>
-<br/>
-
-## Topology Description
+### Topology Description
 
 | Ref. | Description |
 |---|---|
@@ -51,9 +61,6 @@
 | JP1 | LV Mode solder jumper selector |
 | JP2 | HV Mode solder jumper selector |
 
-</div>
-
-
 > **Note:** The module also includes a Qwiic/STEMMA QT connector carrying the same four signals (VCC, GND, SDA, SCL) for effortless daisy-chaining.
 
 ---
@@ -64,7 +71,8 @@ The **DevLab Qwiic I²C Converter Module** is a bidirectional voltage level shif
 
 The design integrates dedicated boost and buck power conversion stages to generate and regulate the required voltage rails for both LV and HV domains. Multiple Qwiic/STEMMA QT connectors and castellated interfaces simplify integration with embedded systems, development boards, sensors, and expansion modules.
 
-The module supports:
+### Features
+
 - Bidirectional I²C level shifting
 - Qwiic/STEMMA QT compatibility
 - Castellated edge connections for embedded integration
@@ -72,7 +80,8 @@ The module supports:
 - 3.3V and 5V logic interoperability
 - Daisy-chain I²C connectivity
 
-Typical applications include:
+### Typical Applications
+
 - Sensor interfacing
 - Mixed-voltage embedded systems
 - Rapid prototyping
@@ -84,4 +93,3 @@ Typical applications include:
 - [TPS61023 Datasheet](https://www.ti.com/lit/ds/symlink/tps61023.pdf)
 - [TPS54302 Datasheet](https://www.ti.com/lit/ds/symlink/tps54302.pdf)
 - [2N7002KDW Datasheet](https://assets.nexperia.com/documents/data-sheet/2N7002KDW.pdf)
-```

@@ -38,8 +38,8 @@ Schematic
 ## Pinout
 
 <div align="center">
-<a href="#">
-<img src="#" width="500px"><br/>
+<a href="unit_pinout_v_1_0_0_ue0106_convertidor_qwiic_en.pdf">
+<img src="./resources/unit_pinout_v_1_0_0_ue0106_convertidor_qwiic_en.jpg" width="500px"><br/>
 Pinout
 </a>
 </div>

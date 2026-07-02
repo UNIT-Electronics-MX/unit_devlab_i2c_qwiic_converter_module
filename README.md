@@ -22,9 +22,9 @@ A bidirectional I2C level shifter module for seamless 3.3V↔5V communication. F
 <div align="center">
 
 [<img src="https://img.shields.io/badge/Documentation-blue?style=for-the-badge" alt="Documentation">](#)
-[<img src="https://img.shields.io/badge/Datasheet-green?style=for-the-badge" alt="Datasheet">](#)
+[<img src="https://img.shields.io/badge/Datasheet-green?style=for-the-badge" alt="Datasheet">](./hardware/unit_datasheet_v_1_0_0_devlab_i2c_Qwiic_converter_module.pdf)
 [<img src="https://img.shields.io/badge/Purchase-orange?style=for-the-badge" alt="Purchase">](#)
-[<img src="https://img.shields.io/badge/Examples-purple?style=for-the-badge" alt="Examples">](#)
+[<img src="https://img.shields.io/badge/Examples-purple?style=for-the-badge" alt="Examples">](./software/examples/)
 
 </div >
 
